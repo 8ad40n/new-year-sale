@@ -18,7 +18,7 @@ body {
 .banner {
   background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
     url("../resources/Banner\ Image.png");
-  background-size: 100%;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   height: 600px;
   flex-shrink: 0;
@@ -81,15 +81,16 @@ body {
 /* section: midnight-party */
 .midnight {
   display: flex;
-  height: 600px;
   background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
     url("../resources/Vectorrr.png");
   /* background-size: 100%; */
   background-repeat: no-repeat;
+  background-size: 100% 100%;
   align-items: center;
   justify-content: center;
   border-radius: 16px;
   margin-bottom: 120px;
+  height: 600px;
 }
 .welcome h1 {
   color: #fff;
@@ -137,8 +138,8 @@ body {
   border-radius: 16px;
   margin-bottom: 120px;
 }
-.info{
-    margin-bottom: 48px;
+.info {
+  margin-bottom: 48px;
 }
 .info h1 {
   color: #070211;
@@ -166,4 +167,93 @@ body {
   color: #fff;
   border: none;
   cursor: pointer;
+}
+
+/* section: new-best-offer */
+.new-best-offer {
+  display: flex;
+  align-items: center;
+  flex-basis: 100%;
+}
+.best-offer h4 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.best-offer h1 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+}
+.best-offer p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+  width: 393px;
+}
+.cel-img {
+  border: 15px solid #f00;
+  border-radius: 50%;
+  margin: 80px;
+}
+.cel-img img {
+  margin: 30px;
+}
+
+.Happy h1 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+}
+.Happy p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+  width: 276px;
+}
+
+/* section: best-gifts */
+.portfolio h4 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.portfolio h1 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 22px;
+}
+.portfolio p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+  width: 896px;
+  margin-bottom: 24px;
+}
+.photos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.photo {
+  width: 424px;
+  flex-basis: 33.33333%;
+  margin: 24px 0px;
+}
+.photo img{
+    width: 375px;
 }
