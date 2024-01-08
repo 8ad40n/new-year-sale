@@ -122,6 +122,13 @@ body {
   margin-left: 60px;
   cursor: pointer;
 }
+.welcome button:hover{
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  padding: 16px;
+  border-radius: 10px;
+}
 
 /* section: details */
 .infos {
@@ -167,6 +174,11 @@ body {
   color: #fff;
   border: none;
   cursor: pointer;
+}
+.infos button:hover{
+  width: 140px;
+  height: 50px;
+  background-color: rgb(8, 9, 9);
 }
 
 /* section: new-best-offer */
@@ -254,6 +266,11 @@ body {
   flex-basis: 33.33333%;
   margin: 24px 0px;
 }
+.photo img:hover{
+  border-radius: 16px;
+  box-shadow: 10px 10px 10px;
+  width: 380px;
+}
 .photo img {
   width: 375px;
   margin-right: 0px;
@@ -318,6 +335,9 @@ body {
   font-weight: 600;
   border: none;
 }
+.inputs button:hover{
+  background: #070211;
+}
 .inputs input {
   width: 438px;
   height: 67px;
@@ -375,6 +395,11 @@ hr {
 .middle img {
   margin: 0px 24px;
 }
+.middle img:hover{
+  border: 3px solid;
+  border-color: white;
+  border-radius: 50%;
+}
 .last p {
   color: #fff;
   font-family: Inter;
@@ -383,13 +408,73 @@ hr {
   font-weight: 500;
   line-height: normal;
 }
-.last{
+.last {
   display: flex;
   justify-content: space-between;
 }
-.mainFooter{
+.mainFooter {
   display: flex;
   flex-direction: column;
   align-content: center;
   padding-top: 120px;
+}
+
+/* section: Holiday sale */
+.holiday-sale {
+  margin-bottom: 120px;
+}
+.holi h5 {
+  color: #070211;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+}
+.holi h1 span {
+  color: #f00;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+}
+.holi h1 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+}
+.holi p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px; /* 160% */
+  width: 1068px;
+}
+.holi {
+  text-align: center;
+  margin-bottom: 64px;
+}
+.holiPic {
+  position: relative;
+  text-align: end;
+  margin-bottom: 433px;
+  margin-top: 64px;
+}
+
+.girl{
+  position: absolute;
+  top: -61px;
+  left: 892px;
+  z-index: 1;
+}
+.discount {
+  position: absolute;
+  top: 0px;
+  left: 740px;
+  z-index: 2;
+}
+.gift{
+  position: absolute;
+  top: -60px;
+  left: 0px;
 }
