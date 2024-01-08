@@ -254,6 +254,142 @@ body {
   flex-basis: 33.33333%;
   margin: 24px 0px;
 }
-.photo img{
-    width: 375px;
+.photo img {
+  width: 375px;
+  margin-right: 0px;
+}
+.portfolio {
+  margin-bottom: 120px;
+}
+
+/* section: subscribe */
+.subs {
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  height: 616px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 120px;
+}
+.mailPic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.subs h1 {
+  color: #070211;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 22px;
+}
+.subs p {
+  color: rgba(7, 2, 17, 0.6);
+  /* text-align: center; */
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+  width: 896px;
+  margin-bottom: 48px;
+}
+.inputs {
+  width: 648px;
+  height: 72px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+}
+.inputs button {
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  width: 200px;
+  height: 68px;
+  flex-shrink: 0;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+}
+.inputs input {
+  width: 438px;
+  height: 67px;
+  border-radius: 50px 0px 0px 50px;
+  border: none;
+  color: rgba(7, 2, 17, 0.3);
+  padding-left: 24px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* footer */
+footer {
+  background: #070211;
+  height: 609px;
+  color: #fff;
+}
+.upper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+address {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px; /* 166.667% */
+  width: 375px;
+}
+.phoneWeb ul li img {
+  width: 24px;
+}
+.phoneWeb ul li {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px; /* 166.667% */
+  list-style: none;
+}
+hr {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.15);
+  margin-bottom: 48px;
+}
+.middle {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 48px;
+}
+.middle img {
+  margin: 0px 24px;
+}
+.last p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.last{
+  display: flex;
+  justify-content: space-between;
+}
+.mainFooter{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding-top: 120px;
 }
